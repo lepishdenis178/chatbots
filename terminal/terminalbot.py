@@ -10,3 +10,5 @@ while True:
 
     if inputvalue == 'you have?':
         print(answer)
+    elif inputvalue == 'hello':
+        print('ans: hello')
