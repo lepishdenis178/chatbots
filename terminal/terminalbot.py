@@ -1,14 +1,14 @@
-howmuch = int(input('how much:  '))
+howmuch = int(input('сколько есть у бота:  '))
 while True:
     inputvalue = input('msg: ')
 
     checkvalue = howmuch == 0
     if checkvalue == True:
-        answer='ans: no'
+        answer='ans: не'
     else:
-        answer='ans: yes'
+        answer='ans: +'
 
-    if inputvalue == 'you have?':
+    if inputvalue == 'есть че?':
         print(answer)
-    elif inputvalue == 'hello':
-        print('ans: hello')
+    elif inputvalue == 'привет':
+        print('ans: привет')
